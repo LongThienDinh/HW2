@@ -1,0 +1,100 @@
+span.header, .words {
+    font-size: x-large; /* Requirement-2.1 */
+    color: green;
+    font-weight: bold;
+}
+i, h4{ /* Requirement-2.B */
+    font-size: large;
+    color: red; /* Requirement-2.3 */
+}
+h5 { /* Requirement-2.A */
+    color: blue;
+}
+.style { /* Requirement-2.C */
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: green; /* Requirement-2.4 */
+    line-height: 100%;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center; /* Requirement-2.2 */
+}
+#name { /* Requirement-2.D */
+    clear: left; /* Requirement-2.13 */
+}
+
+div.paragraph {
+    color: red;
+    background-color: blue;
+    border: 2px solid black; /* Requirement-2.5 */
+    padding: 1%;
+    width: 500px; /* Requirement-2.7 */
+    height: 50px;
+}
+
+ul.list {
+    list-style: upper-alpha; /* Requirement-2.8 */
+}
+
+img.special {
+    width: 420px; /* Requirement-2.9 */
+    height: 280px; 
+}
+img.identity {
+    width: 60px;
+    height: 60px;
+    float: left; /* Requirement-2.11 */
+}
+
+.scroll {
+    overflow: scroll; /* Requirement-2.14 */
+    visibility: visible; /* Requirement-2.16 */
+}
+
+div.absolute {
+    position: absolute; /* Requirement-2.15 */
+    z-index: -1; /* Requirement-2.17 */
+    top: 0px;
+}
+
+div.spacing {
+    padding-bottom: 80px; /* Requirement-2.6 */
+}
+ul.block {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+
+}
+li a{ /* Requirement-2.F */
+    display: block; /* Requirement-2.11 */
+    color: purple;
+    width: 100px;
+}
+
+li a:hover { /* Requirement-2.E */
+    background: black;
+}
+details { /* Requirement-2.G */
+    background: lightgreen;
+    width: 517px;
+}
+
+summary { /* Requirement-2.H */
+    padding: 5px;
+    width: 55%; /* Requirement-2.10 */
+    border: none;
+    cursor: pointer;
+}
+
+details p:not(.normal) {
+    background-color: lightcyan;
+    color: red;
+}
+
+.normal {
+    color: red;
+    background-color: lightskyblue;
+}
