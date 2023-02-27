@@ -53,7 +53,7 @@ img.identity {
 }
 
 div.absolute {
-    position: absolute; /* Requirement-2.15 */
+    position: fixed; /* Requirement-2.15 */
     z-index: -1; /* Requirement-2.17 */
     top: 0px;
 }
