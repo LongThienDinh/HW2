@@ -53,7 +53,7 @@ img.identity {
 }
 
 div.absolute {
-    position: fixed; /* Requirement-2.15 */
+    position: absolute; /* Requirement-2.15 */
     z-index: -1; /* Requirement-2.17 */
     top: 0px;
 }
@@ -62,6 +62,8 @@ div.spacing {
     padding-bottom: 80px; /* Requirement-2.6 */
 }
 ul.block {
+    background-color: red;
+    width: 100px;
     margin: 0;
     padding: 0;
     overflow: hidden;
